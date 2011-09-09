@@ -1,0 +1,6 @@
+TODO:
+
+- Implement JIT compiler.
+- Port the Linux kernel to Trollcode.
+- Compatibility with 64 bit systems, Long Trollcat.
+- License it to Adobe.

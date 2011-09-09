@@ -51,6 +51,19 @@ IM OUTTA YR LOOP
 BTW Exemacute the progarm
 I HAS A TAPE ITZ I IZ CELL MKAY
 IM IN YR LOOP UPPIN YR PC TIL BOTH SAEM PC AN OPCODES'Z LENGTH
+
+    BTW Seeks forwards or backwards until the next matching bracket
+    HOW IZ I JUMPIN YR DELTA
+        I HAS A BALANCE ITZ DELTA
+        IM IN YR BASE UPPIN YR DUDES TIL BOTH SAEM BALANCE AN 0
+            PC R SUM OF PC AN DELTA
+            OPCODES'Z SRS PC, WTF?
+            OMG "llo", BALANCE R SUM OF BALANCE AN 1, GTFO
+            OMG "lll", BALANCE R SUM OF BALANCE AN -1, GTFO
+            OIC
+        IM OUTTA YR BASE
+    IF U SAY SO
+
     I HAS A OPCODE ITZ OPCODES'Z SRS PC
     OPCODE, WTF?
     OMG "ooo", BTW >
@@ -80,31 +93,13 @@ IM IN YR LOOP UPPIN YR PC TIL BOTH SAEM PC AN OPCODES'Z LENGTH
         GIMMEH LETTAR TAPE'Z VALUE
         GTFO
     OMG "llo", BTW [
-        DIFFRINT TAPE'Z VALUE AN 0, O RLY?
-            YA RLY, GTFO
-        OIC
-        I HAS A BALANCE ITZ 1
-        IM IN YR BASE UPPIN YR DUDES TIL BOTH SAEM BALANCE AN 0
-            PC R SUM OF PC AN 1
-            OPCODES'Z SRS PC, WTF?
-            OMG "llo", BALANCE R SUM OF BALANCE AN 1, GTFO
-            OMG "lll", BALANCE R SUM OF BALANCE AN -1, GTFO
-            OIC
-        IM OUTTA YR BASE
-        GTFO
-    OMG "lll", BTW ]
         BOTH SAEM TAPE'Z VALUE AN 0, O RLY?
-            YA RLY, GTFO
-        OIC
-        I HAS A BALANCE ITZ -1
-        IM IN YR YARD NERFIN YR MILKSHAKE TIL BOTH SAEM BALANCE AN 0
-            PC R SUM OF PC AN -1
-            OPCODES'Z SRS PC, WTF?
-            OMG "llo", BALANCE R SUM OF BALANCE AN 1, GTFO
-            OMG "lll", BALANCE R SUM OF BALANCE AN -1, GTFO
-            OIC
-        IM OUTTA YR YARD
-        GTFO
+            YA RLY, I IZ JUMPIN YR 1 MKAY
+        OIC, GTFO
+    OMG "lll", BTW ]
+        DIFFRINT TAPE'Z VALUE AN 0, O RLY?
+            YA RLY, I IZ JUMPIN YR -1 MKAY
+        OIC, GTFO
     OIC
 IM OUTTA YR LOOP
 
